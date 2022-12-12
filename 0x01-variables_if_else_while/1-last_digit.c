@@ -5,6 +5,8 @@
 /**
 * Main - entry point
 *
+* Description: to tell the values of variables
+*
 * Return: always 0 (success)
 */
 int main(void)
@@ -22,9 +24,9 @@ printf("%d and is greater than 5\n", num);
 }
 else if (num == 0)
 {
-printf("%d and is 0\n", num);
+	printf("%d and is 0\n", num);
 }
-else if ((num < 6) && !(num < 0))
+else if ((num < 6) && !(num == 0))
 {
 printf("%d and is less than 6 and not 0\n", num);
 }
