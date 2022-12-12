@@ -1,14 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
 /**
- * main - Entry
- * description: main function to generate a random number
- * Return :Always 0 (success)
+ * main - Entry point
+ *
+ * Return: Always 0 (success)
  */
-
 int main(void)
 {
 		int n;
