@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * reverse_array - reverse an array
  * @a: Pointer to array
@@ -7,7 +6,6 @@
  *
  * Return: void
  */
-
 void reverse_array(int *a, int n)
 {
 	int temp, counter;
